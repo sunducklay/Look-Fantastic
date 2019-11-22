@@ -1,20 +1,11 @@
 import React from 'react';
-import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
-import Header from './views/Header' 
-
+import Home from './views/Home'
 
 function App() {
   return (
     <div>
-      <Header/>
-        <Router>
-          <div>
-        
-            <Switch>
-              <Route path="/Header" component={Header}></Route>
-            </Switch>
-          </div>
-        </Router>
+      <Home/>
+      
     </div>
   );
 }

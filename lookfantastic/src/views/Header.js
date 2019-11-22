@@ -306,13 +306,13 @@ export default class Header extends Component {
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                             <div className="mrhf-left2">
                                                 <b>礼盒童装</b><br/>
@@ -321,27 +321,27 @@ export default class Header extends Component {
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                             <div className="mrhf-left3">
                                            
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                         
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
                                             
                                             </div>
                                             <div className="mrhf-left4">
@@ -350,24 +350,24 @@ export default class Header extends Component {
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                             <div className="mrhf-left5">
                                                 <b>护肤品</b><br/>
                                           
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                             
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                         </div>                         
                                     </section>
@@ -383,24 +383,24 @@ export default class Header extends Component {
                                         <div className="skg-bot">
                                             <div className="skg-bot-left">
                                                 <b>所有美容仪</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>畅销品牌</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>护肤电器</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>吹风机</b><br/>
                                                 
                                                 <b>直发器</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>卷发器</b><br/>
                                               
                                                 <b>发型修剪</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>脱毛仪</b><br/>   
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>                     
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>                     
                                             </div>
                                             <div className="skg-bot-right">
                                                 <b>健身器材</b>
