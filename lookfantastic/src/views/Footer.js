@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import '../css/Footer.css'
 import { Icon } from 'antd'
+import { BackTop } from 'antd';
 
 export default class Footer extends Component {
     render() {
         return (
-            <div style={{marginTop:850}}>
+            <div style={{marginTop:50}}>
 
                 <div className="footer_row footer_row-infoLinks">
                     <div className="footer_block footer_block-infoLinks">
@@ -199,10 +200,14 @@ export default class Footer extends Component {
                 </div>
 
                 <div className="footer_row footer_row-bg">
-                <div className="footer_block">
-                
-                 </div>
-                   
+               
+                       <div>
+                        <BackTop />
+             
+                        <strong style={{ color: 'rgba(64, 64, 64, 0.6)' }}>  </strong>
+                    
+                       </div>
+
                 </div>
             </div >
         )

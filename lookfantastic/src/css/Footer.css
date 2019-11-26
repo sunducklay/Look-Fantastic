@@ -1,5 +1,9 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
 .footer_row-infoLinks {
-    border-top: 1px solid #f0f0f0;
+    /* border-top: 1px solid #f0f0f0; */
     border-bottom: 1px solid #f0f0f0;
 }
 
@@ -194,7 +198,10 @@ fieldset {
     background: #ebebeb;
     
     margin-top: 10px;
-    background: url(../img/footer.png)no-repeat;
+    background: url(../img/footer.png)no-repeat center;
 }
-
+.newsletterSignup_button-cn:hover{
+    color: #fff;
+    background:#207064;
+}
 

@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import '../css/Container1.css';
 import axios from 'axios';
-import {Link} from 'react-router';
+import {BrowserRouter as Router,Route,NavLink} from 'react-router-dom';
+import Detail from './Detail';
+
 
 export default class Container1 extends Component {
     constructor(props){
@@ -13,6 +15,7 @@ export default class Container1 extends Component {
     render() {
         return (
             <div>
+              
                 <div className="container" style={{marginTop:850}}>
                     <div className="container1-title">
                         <h2>美妆好物，年度盘点。</h2>
@@ -21,24 +24,24 @@ export default class Container1 extends Component {
                     {
                         this.state.list.map((item,i)=>{
                             return(
-                                <ul className="products" key={i}>
+                                <div key={i}>
+                                <ul className="products" key={item._id}>
+                                 <NavLink to={{pathname:"/detail",state:{id:item._id}}}> 
                                   <li>
                                      <img src={item.coverImg} style={{width:'200px'}}/>
                                      <h3>名字:{item.name}</h3>
-                                     {/* <p>评价:{item.descriptions}</p> */}
                                      <h4>数量:{item.quantity}</h4>
                                      <h3>价格:{item.price}</h3>
                                   </li>
-                                
-                                   
-                                       
-                                      
-                                  
+                                  </NavLink>
                                 </ul>
+                                </div>
                             )
+                           
                         })
                     }
-                </div>
+                  </div>
+                   
             </div>
         )
     }

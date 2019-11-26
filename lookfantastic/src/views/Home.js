@@ -11,15 +11,6 @@ export default class Home extends Component {
                 <Header/>
                 <Container1/>
                 <Footer/>
-                    <Router>
-                        <div>
-                        
-                            <Switch>
-                            <Route path="/Header" component={Header}></Route>
-                            <Route path="/Container1" component={Container1}></Route>
-                            </Switch>
-                        </div>
-                    </Router>
             </div>
         )
     }
