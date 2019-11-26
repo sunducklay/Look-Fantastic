@@ -1,0 +1,163 @@
+*{margin: 0;padding: 0;}
+
+.title{
+    width: 1200px;
+    height: 60px;
+    font-size: 30px;
+    margin: 0 auto; 
+    display: flex;
+    justify-content: space-between;
+
+}
+.title .btn1{
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+}
+.txt-one{
+    width: 1140px;
+    height: 44px;
+    border: solid 1px rgb(200, 222, 200);
+    margin: 20px auto;
+    background: rgb(230, 242, 230);
+    line-height: 44px;
+    padding-left: 20px;
+    font-size: 17px;
+    color: rgb(0, 125, 30);
+}
+.icon-1{
+    font-size: 20px;
+}
+.list-x{
+    width: 1140px;
+    margin: 0 auto;
+}
+.list-x .list-left{
+    width: 65%;
+   
+    float: left;
+    padding-right:20px;
+}
+.list-product{
+     border-top: solid 1px #afa7a7;
+}
+
+
+.list-x .list-right{
+    width: 35%;
+   
+    float: right;
+}
+.txt-two{
+    color: rgb(0, 125, 30);
+    line-height: 20px;
+}
+.pic1{
+    width: 350px;
+    height: 100px;
+    background: white;
+    padding:15px 0;
+    margin-top: 5px;
+}
+.tu1{
+    float: left; 
+}
+.list-product .mo-ji{
+    display: flex;
+    justify-content: space-between;
+    border-bottom:solid 1px  #afa7a7;
+    padding: 8px 0;
+}
+.list-product li .ipt-no{
+    margin-left: 40px;
+}
+.list-product li .prise{
+    margin-left:90px;
+    margin-top:20px;
+}
+.list-product li .del{
+    float: right;
+    margin-top:15px;
+}
+.list-product .total{
+    margin-top:20px;
+    border-bottom: solid 1px  #afa7a7;
+    padding: 10px 0;
+    padding-left:500px;
+}
+.list-product li{
+    border-bottom: solid 1px #afa7a7;
+    padding:10px 0;
+}
+.list-product li i{
+    width: 100px;
+    /* overflow: hidden; */
+    /* display: inline-block; */
+    
+}
+.list-bot .jiesheng{
+display: flex;
+justify-content: space-between;
+padding: 15px 0;
+padding-right:20px;
+color:rgb(0, 125, 30);
+font-weight: 700;
+}
+.input-A .ipt{
+    border: solid 1px gray;
+    width: 350px;
+    height: 50px;
+    margin-left:170px;
+    margin-top:30px;
+    padding-left:10px;
+    font-size: 14px;
+}
+.input-A .btn{
+    width: 100px;
+    height: 51px;
+    background:black;
+    border: 0;
+    color: white;
+    border-radius: 1px;
+    
+}
+.btn:hover{
+    background: rgb(40, 189, 183);
+    cursor: pointer;
+}
+.input-B .btn1{
+    width: 100px;
+    height: 50px;
+    margin-top:30px;
+    background: black;
+    border: 0;
+    font-size: 16px;
+}
+.input-B .btn1:hover{
+    background: rgb(40, 189, 183);
+    cursor: pointer;
+}
+.input-B{display: flex;justify-content: space-between;}
+.input-B .btn2{
+    width: 120px;
+    height: 50px;
+    margin-top:30px;
+    margin-right:20px;
+    font-size: 16px;
+}
+.input-B .btn2:hover{
+    background: rgb(25, 105, 103);
+    cursor: pointer;
+    border: 0;
+  
+}
+
+.input-B .btn2:hover .key2{
+    color: black;
+}
+.imgs{
+    width: 250px;
+    float: right;
+    margin-top:20px;
+    margin-right:20px;
+}

@@ -3,6 +3,7 @@ import '../css/header.css';
 import { Input,Icon,Carousel,Tabs,AutoComplete } from 'antd';
 import '../css/mohu-input.css';
 
+
 const { Option, OptGroup } = AutoComplete;
 
 const dataSource = [
@@ -49,9 +50,6 @@ function renderTitle(title) {
       {title}
       <a
         style={{ float: 'right' }}
-        href="https://www.google.com/search?q=antd"
-        target="_blank"
-        rel="noopener noreferrer"
       >
         more
       </a>
@@ -94,7 +92,7 @@ export default class Header extends Component {
             <div>
                 <div className="head">
                     <section className="top1">
-                        <p className="tit1">您好<a className="Tologin" href="#" title="请登陆您的账户">请登录</a></p>
+                        <p className="tit1">您好<a className="Tologin" href="/login" title="请登陆您的账户">请登录</a></p>
                         <ul className="tit2">
                             <li><a className="one1" href="#">英国直邮</a></li>
                             <li><a className="one1" href="#">阳光清道</a></li>
@@ -149,7 +147,7 @@ export default class Header extends Component {
                             <Icon type="zoom-in" className="icon2"/>
                             </div>
                         </div>
-                        <div className="cart"><a href="#">购物车(0)</a></div>
+                        <div className="cart"><a href="#"><Icon type="shopping-cart" />购物车</a></div>
                      </section>
 
                      <div className="nav-row">
@@ -306,13 +304,13 @@ export default class Header extends Component {
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                             <div className="mrhf-left2">
                                                 <b>礼盒童装</b><br/>
@@ -321,27 +319,27 @@ export default class Header extends Component {
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                             <div className="mrhf-left3">
                                            
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                         
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
                                             
                                             </div>
                                             <div className="mrhf-left4">
@@ -350,24 +348,24 @@ export default class Header extends Component {
                                                 <b>礼盒童装</b><br/>
                                                 <b>护肤品旅行装</b><br/>
                                                 <b>面部清洁</b><br/>
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                                 <b>卸妆</b><br/>
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                             <div className="mrhf-left5">
                                                 <b>护肤品</b><br/>
                                           
-                                                <i style={{'font-style':'normal'}}>洗面奶</i><br/>
-                                                <i style={{'font-style':'normal'}}>爽肤水</i><br/>
-                                                <i style={{'font-style':'normal'}}>去角质|磨砂</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>洗面奶</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>爽肤水</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>去角质|磨砂</i><br/>
                                             
                                                 <b>流行大势</b><br/>
-                                                <i style={{'font-style':'normal'}}>皮肤营养补充</i><br/>
-                                                <i style={{'font-style':'normal'}}>天然有机</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>皮肤营养补充</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>天然有机</i><br/>
                                             </div>
                                         </div>                         
                                     </section>
@@ -383,24 +381,24 @@ export default class Header extends Component {
                                         <div className="skg-bot">
                                             <div className="skg-bot-left">
                                                 <b>所有美容仪</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>畅销品牌</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>护肤电器</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>吹风机</b><br/>
                                                 
                                                 <b>直发器</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>卷发器</b><br/>
                                               
                                                 <b>发型修剪</b><br/>
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>
                                                 <b>脱毛仪</b><br/>   
-                                                <i style={{'font-style':'normal'}}>BeGlow</i><br/>                     
+                                                <i style={{'fontStyle':'normal'}}>BeGlow</i><br/>                     
                                             </div>
                                             <div className="skg-bot-right">
                                                 <b>健身器材</b>
@@ -444,10 +442,10 @@ export default class Header extends Component {
                                 <h3><img src={require('../img/32.jpg')}/></h3>
                                 </div>
                                 <div key={2}>
-                                <h3><img src={require('../img/43.jpg')}/></h3>
+                                <h3><img src={require('../img/x26.jpg')}/></h3>
                                 </div>
                                 <div key={3}>
-                                <h3><img src={require('../img/44.jpg')}/></h3>
+                                <h3><img src={require('../img/x434.jpg')}/></h3>
                                 </div>
                                 <div key={4}>
                                 <h3><img src={require('../img/07.jpg')}/></h3>

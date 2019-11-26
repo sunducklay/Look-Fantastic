@@ -1,0 +1,44 @@
+*{margin: 0;padding: 0;}
+.detail-x{
+    width: 1200px;
+    margin: 0 auto;
+}
+.detail-z{
+    display: flex;
+    background: pink;
+}
+.set-tit{
+    padding: 20px 20px;
+}
+.set-tit p{
+    font-size: 20px;
+}
+.set-tit b{
+    font-size: 40px;
+}
+.set-tit div{
+    font-size: 20px;
+}
+.list{display: flex;flex-wrap: wrap;}
+.list-one{
+    border: solid 1px;
+    width: 390px;
+    padding: 10px 0;
+    text-align: center;
+    line-height: 40px;
+    margin: 5px 5px;
+}
+.list-one b{
+    font-size: 30px;
+}
+.txt{
+    background: cornflowerblue;
+    font-size: 30px;
+    text-align: center;
+}
+.add-cart{
+    color: white;
+}
+.add-cart:hover{
+    color: white;
+}
